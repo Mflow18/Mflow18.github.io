@@ -1,0 +1,165 @@
+.framing {
+    background-color: #f3f8fa;
+}
+
+.inner-container {
+    width: 90%;
+    margin:auto;
+    padding:10px;
+}
+
+.icones {
+    flex-direction: row;
+}
+
+h1 h2 h3 {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+p {
+    font-family: 'Mukta Vaani', sans-serif;
+    text-align: justify;
+}
+
+.portrait {
+    border-radius: 100%;
+    max-width: 20%;
+    height: auto;
+}
+
+.entexte {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-container {
+    background-color: #274690 ;
+}
+
+.header-container, h1, img {
+    padding: 15px;
+}
+
+h1 {
+    color: #db504a;
+}
+
+h2 {
+    color: #ff2233;
+}
+
+h3 {
+    color: #274690;
+}
+
+.header p {
+    color: #ffffff;
+}
+
+.prez-container {
+    background-color: #005cbf;
+    margin-bottom: 20px;
+}
+
+.presentation p {
+    padding: 10px;
+}
+
+.presentation a {
+    padding: 10px;
+    color: #ffffff;
+}
+
+.inner-entete {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.dates {
+    width :20%;
+}
+
+.texte {
+    width: 70%;
+}
+
+.educ {
+    width: 40%;
+}
+
+.item {
+    margin: 20px;
+}
+
+.img-projet {
+    width:100%;
+    margin:auto;
+}
+
+@media (min-width: 992px)
+{
+    .dates {
+        width: unset;
+        text-align: center;
+    }
+
+    .texte {
+        witdh:unset;
+    }
+
+    .inner-container {
+        width: 60%;
+        margin:auto;
+    }
+
+    .presentation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .inner-container, .container, .tab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comp {
+        width: 100%;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .educ {
+        width:unset;
+    }
+
+    .educ-itm {
+        text-align: center;
+    }
+}
