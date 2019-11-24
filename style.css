@@ -12,6 +12,9 @@
     flex-direction: row;
 }
 
+.link {
+    text-align: center;
+}
 h1 h2 h3 {
     font-family: 'Yantramanav', sans-serif;
 }
@@ -117,6 +120,13 @@ h3 {
 .img-projet {
     width:100%;
     margin:auto;
+}
+
+.texte-projets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
 }
 
 @media (min-width: 992px)
